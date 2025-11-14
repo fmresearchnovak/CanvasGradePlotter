@@ -205,6 +205,12 @@ function initPlotter() {
     });
 }
 
+function initPlotter2(){
+    alert('initPlotter2')
+}
+
 // Wait for the window to load before running the script
 window.addEventListener('load', initPlotter);
-alert("let's fucking go?")
+document.addEventListener('DOMContentLoaded', initPlotter2);
+document.addEventListener('click', initPlotter2);
+//alert("let's fucking go?")
