@@ -1,0 +1,24 @@
+#grade-histogram-container {
+    /* Basic Card Styling */
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 400px; /* Give it a fixed height for Chart.js */
+}
+
+.plot-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#grade-histogram-canvas {
+    width: 100% !important;
+    height: 350px !important;
+}

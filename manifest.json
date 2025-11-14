@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Canvas Grade Histogram Plotter",
+  "version": "1.0",
+  "description": "Reads total grades from the Canvas Grades page and plots a histogram distribution.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.instructure.com/courses/*/grade*"
+      ],
+      "js": ["content_script.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "permissions": [
+    "*://*.instructure.com/courses/*/grade*"
+  ]
+}
